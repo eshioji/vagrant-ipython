@@ -76,10 +76,10 @@ end
 #  end
 #end
 
-runit_service "ipython" do
-  default_logger true
-  options({
-    :port => "8888",
-    :notebook_dir => "/vagrant/ipynb",
-  })
-end
+#runit_service "ipython" do
+#  default_logger true
+#  options({
+#    :port => "8888",
+#    :notebook_dir => "/vagrant/ipynb",
+#  })
+#end
